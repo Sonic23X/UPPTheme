@@ -1,0 +1,261 @@
+/*
+Theme Name: UPP
+Template Theme URI: https://www.upp.edu.mx
+Author: SITE
+Description: ninguna
+Version: 0.5.7
+*/
+
+.post
+{
+  padding-left: 40px;
+}
+
+#contenedor
+{
+  padding-bottom: 40px;
+  padding-left: 115px;
+  padding-right: 115px;
+}
+
+footer
+{
+  padding-top: 50px;
+}
+
+#buscar
+{
+  background-color: rgb(130, 52, 184);
+  color: white;
+}
+
+a, a:hover, a:active, a:visited{
+  text-decoration: none;
+}
+
+.title:hover{
+  color: rgb(130, 52, 184);
+}
+
+.cuerpo
+{
+  width: 50%;
+}
+
+.side
+{
+  width: 40%;
+  padding-left: 200px;
+  vertical-align: top;
+}
+
+.cuerpo, .side{
+  display: inline-block;
+}
+
+input.search-field
+{
+  width: 150px;
+}
+
+.detalles
+{
+  color: rgb(189, 186, 190);
+}
+
+.form-control:focus
+{
+  border-color: rgb(157, 50, 189);
+}
+
+.submit, btn
+{
+  background-color: rgb(157, 50, 189);
+  color: white;
+  width: 100%
+}
+
+#url
+{
+  display: none;
+}
+
+.image
+{
+  width: 20%;
+}
+
+.comentario
+{
+  width: 70%;
+  vertical-align: top;
+}
+
+.image, .comentario
+{
+  display: inline-block;
+}
+
+@media (max-width:1310px) {
+
+  #contenedor
+  {
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  footer
+  {
+    padding-top: 20px;
+  }
+
+  a, a:hover, a:active
+  {
+    text-decoration: none;
+  }
+
+  .cuerpo
+  {
+    width: 50%;
+  }
+
+  .post
+  {
+    padding-left: 15px;
+  }
+
+  .side
+  {
+    width: 40%;
+    padding-left: 95px;
+  }
+
+  .cuerpo, .side
+  {
+    display: inline-block;
+  }
+
+}
+
+@media (max-width:1024px) {
+
+  #contenedor
+  {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  footer
+  {
+    padding-top: 20px;
+  }
+
+  a, a:hover, a:active
+  {
+    text-decoration: none;
+  }
+
+  .cuerpo
+  {
+    width: 60%;
+  }
+
+  .post
+  {
+    padding-left: 15px;
+  }
+
+  .side
+  {
+    width: 30%;
+    padding-left: 60px;
+  }
+
+  .cuerpo, .side{
+    display: inline-block;
+  }
+
+}
+
+@media (max-width:850px) {
+
+  #contenedor
+  {
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  footer
+  {
+    padding-top: 20px;
+  }
+
+  a, a:hover, a:active
+  {
+    text-decoration: none;
+  }
+
+  .cuerpo
+  {
+    width: 100%;
+  }
+
+  .post
+  {
+    padding-left: 15px;
+  }
+
+  .side
+  {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .cuerpo, .side{
+
+  }
+
+}
+
+@media (max-width:500px) {
+
+  #contenedor
+  {
+    padding-bottom: 5px;
+    padding-right: 25px;
+  }
+
+  footer
+  {
+    padding-top: 20px;
+  }
+
+  a, a:hover, a:active
+  {
+    text-decoration: none;
+  }
+
+  .cuerpo
+  {
+    width: 100%;
+  }
+
+  .post
+  {
+    padding-left: 15px;
+  }
+
+  .side
+  {
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .cuerpo, .side{
+
+  }
+
+}

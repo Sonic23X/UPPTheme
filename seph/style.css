@@ -1,0 +1,214 @@
+/*ESTILO DE LA SEPH*/
+/* =========== Fuentes Oficiales ============= */
+@font-face{
+    font-family: 'Graphik-Semibold';
+    src: url('/fonts/Graphik-Semibold.otf');
+}
+@font-face{
+    font-family: 'Graphik-RegularItalic';
+    src: url('/fonts/Graphik-RegularItalic.otf');
+}
+@font-face{
+    font-family: 'Graphik-Bold';
+    src: url('/fonts/Graphik-Bold.otf');
+}
+@font-face{
+    font-family: 'Graphik-Light';
+    src: url('/fonts/Graphik-Light.otf');
+}
+@font-face{
+    font-family: 'Graphik-Thin';
+    src: url('/fonts/Graphik-Thin.otf');
+}
+@font-face{
+    font-family: 'Graphik-Regular';
+    src: url('/font/Graphik-Regular.otf');
+}
+
+/* =========== Titulos Oficiales ============= */
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Graphik-Semibold', tahoma, sans-serif;
+  font-weight: normal;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+}
+
+h1 {
+    font-size: 20px;
+   font-style: normal;
+  font-family: 'Graphik-Bold', Tahoma, Verdana;
+}
+h2 {
+      font-size: 18px;
+    line-height: 18px;
+  margin-bottom: 20px;
+     font-style: normal;
+    font-weight: 300;
+}
+h3 {
+      font-size: 19px;
+    line-height: 19px;
+  margin-bottom: 18px;
+     font-style: normal;
+}
+h4 {
+  font-size: 13px;
+}
+
+/* =========== Propias ============= */
+.titulo_seph{
+    min-height: 52px;
+}
+.titulo_seph h1{
+          color: #FFF;
+    font-family: 'Graphik-Bold', Tahoma, Verdana !important;
+    font-weight: bolder;
+      font-size: 16px;
+}
+#redes_sociales{
+	margin: 0px;
+}
+.redes_sociales i{
+            color: #FFF;
+        font-size: 20px;
+       margin-top: 21px;
+    margin-bottom: 10.5px;
+     margin-right: 2%;
+}
+
+/* =========== NAVBAR ============= */
+.navbar{
+	     font-size: 13px; 
+	    background: #F6F6F6;
+	 border-bottom: 4px #EAEAEA solid; 
+	text-transform: uppercase;
+}
+
+
+/* =========== Colores ============= */
+.c_gob_azul {
+    background-color: #092432;
+}
+.c_gob_gris {
+    background-color: #727272;
+}
+/* =========== Footer ============= */
+footer{
+    border-bottom: 8px #E73C4E solid;
+    color: #FFF;
+}
+
+footer .c_gob_azul{
+    padding:4% ;
+}
+/*
+==================== TEMPLATE UDH
+*/
+.no-margin{
+	margin: 0px;
+}
+.no-padding{
+	padding: 0px;
+}
+.txt-center{
+	text-align: center;
+}
+.txt-justify{
+	text-align: justify;
+}
+.parrafo{
+	padding: 1% 3% 1% 3%; 
+}
+.btn-sistemas{
+	min-height: 125px;
+}
+/*
+==================== SECCIONES
+*/
+.aspirantes{
+	     padding-top: 3%;
+	  padding-bottom: 3%;
+	background-color: #F6F6F6;
+			   color: #092432;
+}
+.alumnos{
+	   padding-top: 4%;
+	padding-bottom: 4%;
+}
+.licenciatura{
+	min-height: 250px;
+}
+.tutores{
+	     padding-top: 4%;
+	  padding-bottom: 4%;
+	background-color: #f6f6f6;
+			   color: #092432;
+}
+.seph-hoy{
+	         color: #777777;
+	   padding-top: 4%;
+	padding-bottom: 4%;
+}
+.canal-seph{
+	           color: #fff;
+	background-color: #a2181d;
+		 padding-top: 4%;
+	  padding-bottom: 4%;
+}
+.contacto{
+	   padding-top: 4%;
+	padding-bottom: 4%;
+}
+/*
+==================== COLORES
+*/
+.color1{
+	background-color: #4797B1;
+	color: #fff;
+}
+.color2{
+	background-color: #582c65;
+	color: #fff;
+}
+.color3{
+	background-color: #092432;
+	color: #fff;
+}
+.color4{
+	background-color: #69ab9d;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
